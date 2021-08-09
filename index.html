@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="styles/index.css">
   <link rel="stylesheet" href="styles/layout.css">
   <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/aside.css">
   <link rel="stylesheet" href="styles/sectionSasti.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,6 +51,15 @@
       </a>
     </address>
   </nav>
+  <aside class="aside_layout">
+    <div class="aside_layout_line">
+      <div onclick="setCircles(0); goto(0)" class="aside_layout_circle active"></div>
+      <div onclick="setCircles(1); goto(1)" class="aside_layout_circle"></div>
+      <div onclick="setCircles(2); goto(2)" class="aside_layout_circle"></div>
+      <div onclick="setCircles(3); goto(3)" class="aside_layout_circle"></div>
+      <div onclick="setCircles(4); goto(4)" class="aside_layout_circle"></div>
+    </div>
+  </aside>
   <div class="layout">
     <svg class="layout_svg_1" width="862" height="550" viewBox="0 0 862 550" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M684 243C803.983 300.848 786.802 553.176 862 549.968V0H0C0 0 21.2899 187.221 157.5 243C313.05 306.699 532.032 169.731 684 243Z" fill="url(#paint0_linear)"/>
@@ -75,7 +85,7 @@
       </defs>
     </svg>
   </div>
-  <header class="first_header">
+  <header class="first_header sections_for_aside">
     <h1>
       First Impression Phrase
     </h1>
@@ -96,17 +106,16 @@
   </header>
   <section class="section_sasti">
     <h2>
-      SOCIAL PROOF
+      One line description of what is out hackaton.
     </h2>
     <main>
-      <h2>
-        One line description of 
-        what is out hackaton.
-      </h2>
       <p>
         Párrafo explicando a profundidad quien es sasti y qupe es lo que estamos haciendo con este hackaton. Bla bla bla. Párrafo explicando a profundidad quien es sasti y qupe es lo que estamos haciendo con este hackaton. Bla bla bla.
       </p>
     </main>
   </section>
+  <script src="js/imports.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/aside.js"></script>
 </body>
 </html>

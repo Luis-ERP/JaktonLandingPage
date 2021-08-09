@@ -1,0 +1,32 @@
+.aside_layout {
+  position: fixed;
+  z-index: 2;
+  right: 73.5px;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside_layout_line {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  width: 2px;
+  height: 425px;
+}
+
+.aside_layout_circle {
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.aside_layout_circle.active {
+  border-radius: 0;
+}
