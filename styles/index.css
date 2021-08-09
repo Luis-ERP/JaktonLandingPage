@@ -3,8 +3,9 @@
 }
 
 :root {
-  --conic-gradient: conic-gradient(from -90deg at 56.74% 0%, #00063E -62.13deg, rgba(0, 3, 28, 0.5) 2.5deg, #00063E 297.87deg, rgba(0, 3, 28, 0.5) 362.5deg);
-  --body-bg: #000212;
+  --gradient-1: conic-gradient(from -90deg at 56.74% 0%, rgb(0, 3, 30) -62.13deg, rgba(13, 13, 13, 0.5) 2.5deg, #00031E 297.87deg, rgba(13, 13, 13, 0.5) 362.5deg);
+  --body-bg: #01020E;
+  --body-bg-alpha: rgba(0, 3, 30, .65);
   --white: #FFF;
   --black: #000;
 }
@@ -26,36 +27,6 @@ body {
   left: 0;
   font-size: 16px;
   font-family: sans-serif;
-  background: var(--conic-gradient);
   background: var(--body-bg);
-
   color: var(--white);
-}
-
-.first_header {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0 10vw;
-  background: var(--conic-gradient);
-}
-
-.first_header h1 {
-  margin: 0;
-  font-size: 3.31rem;
-}
-
-.first_header p {
-  margin: 20px 0 30px 0;
-}
-
-.first_header button {
-  padding: 15px 50px;
-  background-color: var(--white);
-  color: var(--black);
-  border: none;
-  border-radius: 200px;
-  font-weight: bold;
 }

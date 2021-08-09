@@ -20,3 +20,36 @@
 .layout .layout_svg_2 {
   bottom: 0;
 }
+
+nav {
+  background-color: var(--body-bg-alpha);
+  height: 120px;
+  width: 100%;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 62px 0 0;
+}
+
+nav h1 {
+  padding-left: 10vw;
+}
+
+nav address a  {
+  text-decoration: none;
+  margin-left: 32px;
+}
+
+nav address a svg {
+  transition: transform ease-out 150ms;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  nav address a:hover svg {
+    transform: scale(1.2);
+  }
+}
