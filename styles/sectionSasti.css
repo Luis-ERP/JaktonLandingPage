@@ -1,13 +1,36 @@
 .section_sasti {
   width: 100%;
-  margin: 0;
-
+  margin: 160px 0 306px 0;
+  padding: 0 10vw;
+  position: relative;
+  z-index: 2;
 }
 
 .section_sasti main p {
-  width: 300px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.37rem;
+  line-height: 27px;
 }
 
 .section_sasti h2 {
   margin: 0;
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.75rem;
+  line-height: 79px;
+}
+
+.section_sasti div {
+  width: 660px;
+}
+
+.section_sasti img {
+  height: 306px;
+  position: absolute;
+  z-index: -1;
+  top: 185px;
+  right: calc(50px + 10vw);
 }

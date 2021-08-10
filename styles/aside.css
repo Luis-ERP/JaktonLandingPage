@@ -1,6 +1,6 @@
 .aside_layout {
   position: fixed;
-  z-index: 2;
+  z-index: 90;
   right: 73.5px;
   top: 0;
   height: 100%;
@@ -25,6 +25,7 @@
   height: 14px;
   background-color: var(--white);
   cursor: pointer;
+  transition: border-radius ease-out 200ms;
 }
 
 .aside_layout_circle.active {

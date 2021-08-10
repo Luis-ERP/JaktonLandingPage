@@ -18,12 +18,14 @@
   <meta name="twitter:description" content="Sociedad de Alumnos en Ingeniería en Sistemas y Tecnologías de Información." />
   <link rel="stylesheet" href="styles/index.css">
   <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/theme.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/aside.css">
   <link rel="stylesheet" href="styles/sectionSasti.css">
+  <link rel="stylesheet" href="styles/callAction.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <!-- <meta property="og:url" content="https://dominio.com" /> -->
   <title>SASTI</title>
@@ -32,7 +34,7 @@
   <nav>
     <h1>LOGO</h1>  <!-- temporal -->
     <address>
-      <a href="" title="Discord" target="_blank">
+      <a href="" title="Twitch" target="_blank">
         <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M14 10V6M19 1H1V17H6V21L10 17H15L19 13V1ZM9 10V6V10Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>          
@@ -57,7 +59,6 @@
       <div onclick="setCircles(1); goto(1)" class="aside_layout_circle"></div>
       <div onclick="setCircles(2); goto(2)" class="aside_layout_circle"></div>
       <div onclick="setCircles(3); goto(3)" class="aside_layout_circle"></div>
-      <div onclick="setCircles(4); goto(4)" class="aside_layout_circle"></div>
     </div>
   </aside>
   <div class="layout">
@@ -104,15 +105,39 @@
       <img src="images/tec.png" alt="Tec de Monterrey" style="margin-left: 66px;">
     </div>
   </header>
-  <section class="section_sasti">
-    <h2>
-      One line description of what is out hackaton.
+  <section class="section_sasti sections_for_aside">
+    <div>
+      <h2>
+        One line description of what is our hackaton.
+      </h2>
+      <main>
+        <p>
+          Párrafo explicando a profundidad quien es sasti y qupe es lo que estamos haciendo con este hackaton. Bla bla bla. Párrafo explicando a profundidad quien es sasti y qupe es lo que estamos haciendo con este hackaton. Bla bla bla.
+        </p>
+      </main>
+    </div>
+    <img src="images/hacker.png" alt="Hacker">
+  </section>
+  <section style='background-image: url("images/theme.png")' class="theme">
+    <h2 class="sections_for_aside">
+      TEMÁTICA
     </h2>
-    <main>
-      <p>
-        Párrafo explicando a profundidad quien es sasti y qupe es lo que estamos haciendo con este hackaton. Bla bla bla. Párrafo explicando a profundidad quien es sasti y qupe es lo que estamos haciendo con este hackaton. Bla bla bla.
-      </p>
-    </main>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat aliquam diam tempus pulvinar bibendum amet pellentesque. Turpis urna a phasellus morbi fames pellentesque. Eu, quis netus at eget molestie ac, scelerisque. Rutrum id eget morbi viverra in. Arcu, iaculis interdum commodo arcu elementum aenean eu ut.
+    </p>
+  </section>
+  <section class="callToAction sections_for_aside">
+    <h2>
+      CALL TO ACTION SECTION
+    </h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat aliquam diam tempus pulvinar bibendum amet pellentesque. Turpis urna a phasellus morbi fames pellentesque. Eu, quis netus at eget molestie ac, scelerisque. Rutrum id eget morbi viverra in. Arcu, iaculis interdum commodo arcu elementum aenean eu ut.
+    </p>
+    <address>
+      <button>
+        Call to action Btn
+      </button>
+    </address>
   </section>
   <script src="js/imports.js"></script>
   <script src="js/utils.js"></script>
