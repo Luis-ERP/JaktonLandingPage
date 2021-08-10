@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --gradient-1: conic-gradient(from -90deg at 56.74% 0%, rgb(0, 3, 30) -62.13deg, rgba(13, 13, 13, 0.5) 2.5deg, #00031E 297.87deg, rgba(13, 13, 13, 0.5) 362.5deg);
+  --body-bg: #01020E;
+  --body-bg-alpha: rgba(0, 3, 30, .65);
+  --white: #FFF;
+  --black: #000;
+}
+
+html {
+  min-height: 100%;
+  width: 100vw;
+  position: relative;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+  background: var(--body-bg);
+  color: var(--white);
+}
