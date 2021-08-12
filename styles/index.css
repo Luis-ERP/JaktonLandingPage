@@ -3,10 +3,16 @@
 }
 
 :root {
-  --gradient-1: conic-gradient(from -90deg at 56.74% 0%, rgb(0, 3, 30) -62.13deg, rgba(13, 13, 13, 0.5) 2.5deg, #00031E 297.87deg, rgba(13, 13, 13, 0.5) 362.5deg);
-  --body-bg: #01020E;
-  --body-bg-alpha: rgba(0, 3, 30, .65);
-  --white: #FFF;
+  --gradient-1: conic-gradient(
+    from -90deg at 56.74% 0%,
+    rgb(0, 3, 30) -62.13deg,
+    rgba(13, 13, 13, 0.5) 2.5deg,
+    #00031e 297.87deg,
+    rgba(13, 13, 13, 0.5) 362.5deg
+  );
+  --body-bg: #01020e;
+  --body-bg-alpha: rgba(0, 3, 30, 0.945);
+  --white: #fff;
   --black: #000;
 }
 
