@@ -37,6 +37,7 @@
   cursor: pointer;
   transition: background-color ease-out 300ms, color ease-out 300ms;
 }
+
 @media (hover: hover) and (pointer: fine) {
   .first_header button:hover {
     background-color: var(--black);
@@ -50,4 +51,13 @@
 
 .first_header_images img {
   height: 50px;
+}
+
+.first_header_images h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 30px;
 }
