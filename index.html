@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="styles/layout.css">
   <link rel="stylesheet" href="styles/leadsales.css">
   <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/faq.css">
   <link rel="stylesheet" href="styles/aside.css">
   <link rel="stylesheet" href="styles/sectionSasti.css">
   <link rel="stylesheet" href="styles/callAction.css">
@@ -59,6 +60,7 @@
       <div onclick="setCircles(1); goto(1)" class="aside_layout_circle"></div>
       <div onclick="setCircles(2); goto(2)" class="aside_layout_circle"></div>
       <div onclick="setCircles(3); goto(3)" class="aside_layout_circle"></div>
+      <div onclick="setCircles(4); goto(4)" class="aside_layout_circle"></div>
     </div>
   </aside>
   <div class="layout">
@@ -128,6 +130,56 @@
       Tratamos de solucionar el problema de solo tener a dos personas atendiendo el WhatsApp cuando la demanda sube y se volvió insostenible llevar un buen seguimiento de los clientes por excel, buscamos alternativas con empresas existentes pero ninguna solucionaba el cómo mejorar el seguimiento y ofrecer una integración sencilla
     </p>
   </section>
+  <section class="faq sections_for_aside">
+    <h2>
+      FAQ
+    </h2>
+    <div class="faq_question_container">
+      <div class="faq_question_container_above" onclick="clickQuestion(0);">
+        <div class="faq_question_arrow">
+          <img src="./images/svgs/dropdownArrow.svg" alt="Revelar">
+        </div>
+        <div class="faq_question">
+          ¿Qué es un hackatón?
+        </div>
+      </div>
+      <div class="faq_answer">
+        <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quas quasi eos ea consequuntur? Similique voluptatibus illo adipisci officiis explicabo velit, unde nesciunt nihil laborum beatae maiores exercitationem, dignissimos fuga!
+        </div>
+      </div>
+    </div>
+    <div class="faq_question_container">
+      <div class="faq_question_container_above" onclick="clickQuestion(1);">
+        <div class="faq_question_arrow">
+          <img src="./images/svgs/dropdownArrow.svg" alt="Revelar">
+        </div>
+        <div class="faq_question">
+          ¿Por qué participar en un hackatón?
+        </div>
+      </div>
+      <div class="faq_answer">
+        <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quas quasi eos ea consequuntur? Similique voluptatibus illo adipisci officiis explicabo velit, unde nesciunt nihil laborum beatae maiores exercitationem, dignissimos fuga!
+        </div>
+      </div>
+    </div>
+    <div class="faq_question_container">
+      <div class="faq_question_container_above" onclick="clickQuestion(2);">
+        <div class="faq_question_arrow">
+          <img src="./images/svgs/dropdownArrow.svg" alt="Revelar">
+        </div>
+        <div class="faq_question">
+          ¿Qué necesitas para participar en Hackatec?
+        </div>
+      </div>
+      <div class="faq_answer">
+        <div>
+          Tener conocimientos básicos de programación. No importa si estás en los primeros semestres de la carrera o no estudias algo relacionado.
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="callToAction sections_for_aside">
     <h2>
       CALL TO ACTION SECTION
@@ -143,6 +195,7 @@
   </section>
   <script src="js/imports.js"></script>
   <script src="js/utils.js"></script>
+  <script src="js/faq.js"></script>
   <script src="js/aside.js"></script>
 </body>
 </html>
