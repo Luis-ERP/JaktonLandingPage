@@ -1,5 +1,5 @@
-.theme {
-  height: 714px;
+.leadsales {
+  height: 530px;
   width: 100%;
   background-position: center;
   background-size: contain;
@@ -7,20 +7,22 @@
   padding: 0 10vw;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex;
   justify-content: center;
+  background-color: var(--blue);
+  clip-path: polygon(0 75px, 100% 0, 100% calc(100% - 75px), 0 100%);
 }
 
-.theme h2 {
+.leadsales h2 {
   font-family: 'Roboto Slab', serif;
   font-style: normal;
   font-weight: 500;
   font-size: 3.75rem;
   line-height: 79px;
-  margin: 100px 0 37px 0;
+  margin: 50px 0 37px 0;
 }
 
-.theme p {
+.leadsales p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
