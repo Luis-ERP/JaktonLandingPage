@@ -1,31 +1,40 @@
 .callToAction {
-  margin: 250px 10vw 150px 10vw;
-  padding: 60px 10% 60px 10%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.callToAction div {
+  width: 60vw;
+  height: 70vh;
+  padding: 2.5em;
   background-color: var(--white);
   color: var(--black);
   text-align: center;
   border-radius: 25px;
 }
 
-.callToAction h2 {
+.callToAction div h2 {
   font-family: 'Roboto Slab', serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 3.75rem;
-  line-height: 79px;
+  font-weight: bold;
+  font-size: 2.75rem;
+  line-height: 55px;
+  letter-spacing: 5px;
 }
 
-.callToAction p {
+.callToAction div p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.37rem;
   line-height: 27px;
   width: 822px;
-  margin-bottom: 60px;
+  margin-bottom: 2em;
 }
 
-.callToAction button {
+.callToAction div button {
   padding: 14px 49px;
   background-color: var(--black);
   color: var(--white);
@@ -39,7 +48,7 @@
   transition: background-color ease-out 300ms, color ease-out 300ms;
 }
 @media (hover: hover) and (pointer: fine) {
-  .callToAction button:hover {
+  .callToAction div button:hover {
     background-color: var(--white);
     color: var(--black);
   }

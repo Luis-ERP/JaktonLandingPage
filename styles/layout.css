@@ -7,7 +7,8 @@
   height: 100%;
 }
 
-.layout .layout_svg_1, .layout .layout_svg_2 {
+.layout .layout_svg_1,
+.layout .layout_svg_2 {
   position: absolute;
   z-index: 1;
   right: 0;
@@ -22,8 +23,8 @@
 }
 
 nav {
-  background-color: var(--body-bg-alpha);
-  height: 120px;
+  background-color: #00000000;
+  height: 10vh;
   width: 100%;
   z-index: 99;
   position: fixed;
@@ -31,15 +32,16 @@ nav {
   left: 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 0 62px 0 0;
 }
 
 nav h1 {
   padding-left: 10vw;
+  margin: 0;
 }
 
-nav address a  {
+nav address a {
   text-decoration: none;
   margin-left: 32px;
 }

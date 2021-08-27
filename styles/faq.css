@@ -19,7 +19,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 28px;
 }
 
 .faq_question {
@@ -28,7 +28,7 @@
   font-family: 'Roboto Slab', serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 30px;
   letter-spacing: 0.15em;
 }
 
@@ -65,7 +65,7 @@
   padding: 20px 0;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 35px;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.15em;

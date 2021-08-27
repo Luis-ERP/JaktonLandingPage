@@ -3,12 +3,23 @@
 }
 
 :root {
-  --gradient-1: conic-gradient(from -90deg at 56.74% 0%, rgb(0, 3, 30) -62.13deg, rgba(13, 13, 13, 0.5) 2.5deg, #00031E 297.87deg, rgba(13, 13, 13, 0.5) 362.5deg);
-  --body-bg: #01020E;
-  --body-bg-alpha: rgba(0, 3, 30, .65);
-  --white: #FFF;
+  --gradient-1: conic-gradient(
+    from -90deg at 56.74% 0%,
+    rgb(0, 3, 30) -62.13deg,
+    rgba(13, 13, 13, 0.5) 2.5deg,
+    #00031e 297.87deg,
+    rgba(13, 13, 13, 0.5) 362.5deg
+  );
+  --body-bg: #01020e;
+  --body-bg-alpha: rgb(0, 3, 30);
+  --white: #fff;
   --black: #000;
   --blue: #001F4E;
+  --leadsales-purple:  #6128B0;
+  --leadsales-grey:  #f2f7ff;
+  --leadsales-blue:  #e2edff;
+  --leadsales-pink:  #e63070;
+  --leadsales-dark:  #1b1a1f;
 }
 
 html {
@@ -30,4 +41,11 @@ body {
   font-family: sans-serif;
   background: var(--body-bg);
   color: var(--white);
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  line-height: 185% !important;
 }
