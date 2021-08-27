@@ -21,7 +21,6 @@
 .first_header p {
   margin: 20px 0 30px 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.37rem;
 }
 
 .first_header button {
@@ -46,7 +45,7 @@
 }
 
 .first_header_images {
-  margin-top: 150px;
+  margin-top: 10vh;
 }
 
 .first_header_images img {

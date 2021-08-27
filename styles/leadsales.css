@@ -9,24 +9,32 @@
   flex-direction: column;
   align-items: flex;
   justify-content: center;
-  background-color: var(--blue);
-  clip-path: polygon(0 75px, 100% 0, 100% calc(100% - 75px), 0 100%);
+  background-color: var(--leadsales-grey);
+  clip-path: polygon(0 55px, 100% 0, 100% calc(100% - 55px), 0 100%);
 }
 
 .leadsales h2 {
-  font-family: 'Roboto Slab', serif;
-  font-style: normal;
-  font-weight: 500;
+  font-family: 'Catamaran', sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  color: var(--leadsales-dark);
   font-size: 3.75rem;
   line-height: 79px;
   margin: 50px 0 37px 0;
 }
 
+.leadsales img {
+  height: 60px;
+  line-height: parent;
+  margin-left: .45em;
+}
+
 .leadsales p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 1.37rem;
-  line-height: 27px;
+  font-weight: 600;
+  color: #444;
+  line-height: 25px;
+  letter-spacing: 1px;
   width: 761px;
 }

@@ -15,6 +15,11 @@
   --white: #fff;
   --black: #000;
   --blue: #001F4E;
+  --leadsales-purple:  #6128B0;
+  --leadsales-grey:  #f2f7ff;
+  --leadsales-blue:  #e2edff;
+  --leadsales-pink:  #e63070;
+  --leadsales-dark:  #1b1a1f;
 }
 
 html {
@@ -36,4 +41,11 @@ body {
   font-family: sans-serif;
   background: var(--body-bg);
   color: var(--white);
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  line-height: 185% !important;
 }
