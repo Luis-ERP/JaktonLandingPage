@@ -1,19 +1,16 @@
 .callToAction {
-  width: 100vw;
-  height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  padding-top: 10vh;
 }
 
 .callToAction div {
-  width: 60vw;
-  height: 70vh;
+  width: 740px;
+  height: 2677px;
   padding: 2.5em;
-  background-color: var(--white);
-  color: var(--black);
-  text-align: center;
-  border-radius: 25px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: #eee
 }
 
 .callToAction div h2 {
