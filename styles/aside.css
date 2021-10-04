@@ -9,6 +9,12 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 1000px) {
+  .aside_layout {
+    display: none;
+  }
+}
+
 .aside_layout_line {
   display: flex;
   flex-direction: column;

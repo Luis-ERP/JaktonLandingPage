@@ -13,6 +13,12 @@
   background-color: #eee
 }
 
+@media screen and (max-width: 800px) {
+  .callToAction div {
+    width: 10px;
+  }
+}
+
 .callToAction div h2 {
   font-family: 'Roboto Slab', serif;
   font-style: normal;
@@ -44,9 +50,16 @@
   cursor: pointer;
   transition: background-color ease-out 300ms, color ease-out 300ms;
 }
+
 @media (hover: hover) and (pointer: fine) {
   .callToAction div button:hover {
     background-color: var(--white);
     color: var(--black);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .callToAction {
+    display: none;
   }
 }

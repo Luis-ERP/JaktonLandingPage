@@ -33,3 +33,28 @@
   top: 185px;
   right: calc(50px + 10vw);
 }
+
+@media screen and (max-width: 1000px) {
+  .section_sasti {
+    padding: 50px 20px;
+  }
+  .section_sasti div {
+    width: 100%;
+  }
+  .section_sasti h2 {
+    text-align: center;
+    font-size: 3.25rem;
+  }
+  .section_sasti main p {
+    text-align: center;
+  }
+  .section_sasti img {
+    right: 0;
+    width: 100vw;
+    object-fit: contain;
+    top: 100%;
+  }
+  .section_sasti img {
+    content: url("../images/hacker2.png");
+  }
+}
