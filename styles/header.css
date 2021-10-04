@@ -64,13 +64,14 @@
 @media screen and (max-width: 1000px) {
   .first_header {
     align-items: center;
-    margin-top: 50px;
     padding: 0;
   }
   .first_header h1 {
     text-align: center;
     padding: 0 5vw;
-    font-size: 3.23rem;
+    font-size: 2.8rem;
+    line-height: 1.4;
+
   }
   .first_header p {
     text-align: center;

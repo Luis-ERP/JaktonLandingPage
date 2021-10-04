@@ -49,3 +49,10 @@ p {
   word-spacing: 3px;
   line-height: 185% !important;
 }
+
+
+@media screen and (max-width: 1000px) {
+  p {
+    font-size: 14px;
+  }
+}
