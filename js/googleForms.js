@@ -1,3 +1,4 @@
+// import GoogleSpreadsheet from "google-spreadsheet";
 const { GoogleSpreadsheet } = require("google-spreadsheet");
 
 // Initialize the sheet - doc ID is the long id in the sheets URL
