@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hackatec",
+  "private_key_id": "be2db0e9c44f15c14de75a056c1e33a4c8b962b6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCfrbHa78aWjuws\n/bodtDxs3Fa65QWQ0S3gAn1OngoibM/m7Deqb5xChrr2QS+tLUFdor1smygrfEGV\n4JKSBXPHQsrgrSofFp0Ie1AE6YRIF43kcavU3hAPBDBR+6JH9IC/mQX5I/PmN/mh\n53OrZYCKWGhm1VelR4TfkxQo0ZngvFXke9yhDnAtL6xnEkFrQocoQbJWHGfFQ0PG\nHaQPkgDcu4IxUY/Rp0CXlZ8YO4UXpJx8fARGtnbsUB9UyQo8+LKYKEcrPC0mj1JR\neajNDimFqm8rUg9x0RVcJKDSlX4pM0jdl/pPCU/wTFT954W6xN3fjPXsUsjLgo+k\njQBbNLDHAgMBAAECggEABBLiXruPTXgH/n3aqbdXc0+Lxujg43jyuqxVlhPiHk64\nXyPXp7mBOxFE49N16+0jpcfpHUQ4GiPpaHF6S89nzMWfd2vzjyd8iiLbP8TVYyF2\ntUVRJPUlY7yvnufUlBFg14KH7HtGVbFH5SGKiezlAqKOx1DaE5VnhmyyLvhp/JnH\nJZxbDcqHOYQxukN3W+Z5rLE2M+ao7nFx+nMnCvtvomktm9wbEqCtQzwOq8nNr3B/\nd9CzL8zu8KGkea3hnbTUb3UoBBviXprquyivxx934loCqQFnmsxwc4x5dvUuDvZb\nZH1f0ZUIF3vMZxNiUbjxWFQiDt+fNV1VSGiNhvN4AQKBgQDOgHcNbUvp9K9V1pYf\nFKvc2ZzR2MCbrBO/uy1Xc98eIhasuaIKzU4HQhCkA8elRM4U41i/kQQ1d1q+DGbW\nQIiSzh+tFw/Ls9y41GCZy0te4LuScpLoIyrsBXO9vWqVTUa4FuQDVsSSOUa9y8t+\nDYBRWgu136DaTIDufO2fKH/HRwKBgQDF9AS1JqgIqeRIGhnlMPLnEPVGmMlL7fNu\nn5aniPItxsStf/9M3c2aucHu2s+DxGroUNgXUANKZ2VJgF4GHb9p2badj0oCwEfU\nk9jqSiTvHK5mq+Ahw55QiWG6ItlMqkC4wukzJhJDwqzN4BM+A7weFm1JY2eB8XMj\nVn/ZT/OKgQKBgFsJT3Lf6EOv10xkWbJCDrJCTVxFzkPSzLIN9qNDNe224YAsJj/U\n2r1gZq2n7O/zMVcMEygA6nYXtC1skjmKIat2q4hHTnNjS79AAYZLlWKyeH7Le/BS\n8K00ih3vz3kapD6r+MFwEyDTl1g86+0aTqOOqvL3L5aNe5moAanU1OApAoGAF+zb\nWM24R3vJNJG7CYF2Ckl5a7PxuHSlFHzDZ7Jcmv3ILbQntjGktQu4jdbyd9mYlkWX\nKJIqI6cFjfGu64xS40dGFBsKdfSped74u7CEcEYGKjCh4VLUYqWII0gs/WAifHJK\nXz09veTcn/FyQe+PoA9T3CfgjcsSAHZm82v/YoECgYEAuzaPvPTPcRn/Luya9FC+\nRP8siQhk69xC4QMhR3K6T6AXzlCaWGMoyfYQTuYfyYW0yK19yiai4sARs/9QPeKL\n2/jT8rG2nUmfHQaJIuoPqKrus+2m+gzwm0dAw7pdRXjTrzJ8NB06AsTmzJyd3mfP\ng8pS4khSU1ICn/GsjdNv6u0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hackatec@hackatec.iam.gserviceaccount.com",
+  "client_id": "109521461200422417252",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hackatec%40hackatec.iam.gserviceaccount.com"
+}

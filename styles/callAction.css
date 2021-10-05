@@ -5,12 +5,11 @@
 }
 
 .callToAction div {
-  width: 740px;
-  height: 2677px;
+  width: 100vw;
+  height: 20vh;
   padding: 2.5em;
-  border: 1px solid white;
-  border-radius: 20px;
-  background-color: #eee
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 800px) {
@@ -39,9 +38,9 @@
 
 .callToAction div button {
   padding: 14px 49px;
-  background-color: var(--black);
-  color: var(--white);
-  border: 1px solid var(--black);
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid var(--white);
   border-radius: 200px;
   font-weight: bold;
   letter-spacing: 0.05em;
@@ -53,8 +52,8 @@
 
 @media (hover: hover) and (pointer: fine) {
   .callToAction div button:hover {
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--black);
+    color: var(--white);
   }
 }
 
