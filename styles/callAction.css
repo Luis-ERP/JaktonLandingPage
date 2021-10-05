@@ -56,9 +56,3 @@
     color: var(--white);
   }
 }
-
-@media screen and (max-width: 1000px) {
-  .callToAction {
-    display: none;
-  }
-}
