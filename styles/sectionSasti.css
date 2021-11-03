@@ -6,8 +6,35 @@
   z-index: 2;
 }
 
+.section_sasti_2 {
+  width: 100%;
+  margin: 160px 0 306px 0;
+  padding: 50px 10vw;
+  display: flex;
+}
+
+.section_sasti_2 main p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 27px;
+}
+
+.section_sasti_2 h2 {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.75rem;
+  line-height: 79px;
+}
+
 .section_sasti main p {
   font-family: 'Montserrat', sans-serif;
+} 
+
+.section_sasti_2 div {
+  padding-left: 8em;
   font-style: normal;
   font-weight: normal;
   line-height: 27px;
@@ -34,9 +61,18 @@
   right: calc(50px + 10vw);
 }
 
+
+.section_sasti_2 img {
+  height: 416px;
+  top: 185px;
+  right: calc(50px + 10vw);
+  opacity: 75%;
+}
+
 @media screen and (max-width: 1000px) {
   .section_sasti {
     padding: 50px 20px;
+    align-items: center;
   }
   .section_sasti div {
     width: 100%;
@@ -55,7 +91,29 @@
     object-fit: contain;
     top: 100%;
   }
+  .section_sasti_2 img {
+    right: 0;
+    width: 75vw;
+    object-fit: contain;
+    top: 100%;
+    content: url("../images/keyboard_dark.jpg");
+  }
   .section_sasti img {
     content: url("../images/hacker2.png");
+  }
+  .section_sasti_2 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .section_sasti_2 div {
+    padding-left: 0em;
+    align-content: center;
+  }
+  .section_sasti_2 div h2 {
+    align-content: center;
+    text-align: center;
+  }
+  .section_sasti_2 div main p {
+    text-align: center;
   }
 }
