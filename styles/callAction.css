@@ -51,8 +51,21 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
+
   .callToAction div button:hover {
     background-color: var(--black);
     color: var(--white);
   }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  .callToAction div button {
+    position: fixed;
+    bottom: 2.5em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 }

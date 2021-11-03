@@ -21,6 +21,7 @@
 .first_header p {
   margin: 20px 0 30px 0;
   font-family: "Montserrat", sans-serif;
+  width: 60%;
 }
 
 .first_header button {
@@ -75,7 +76,7 @@
   }
   .first_header p {
     text-align: center;
-    width: 100%;
+    width: 90%;
     font-size: 14px;
   }
   .first_header_images {
@@ -100,5 +101,9 @@
     height: 50px;
     margin: 0 !important;
     display: inline-block;
+  }
+
+  .first_header button {
+    display: none;
   }
 }
